@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+body{
+    font-family: "Libertinus Serif", serif;
+    margin: 0;
+    background-image: url(WhatsApp\ Image\ 2025-09-25\ at\ 7.26.06\ PM\ \(1\).jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(250, 208, 153);
+    width: 100%;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    margin-right: 150px;
+}
+.navbar .navbar-brand a{
+    color: rgb(12, 238, 98);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar .navbar-items{
+    display: flex;
+    gap: 50px;
+    margin-right: 150px;
+}
+.navbar .navbar-items .navbar-link{
+    list-style: none;
+}
+.navbar .navbar-items .navbar-link a{
+    text-decoration: none;
+    color: rgb(4, 19, 21);
+    font-weight: bold;
+}
+.navbar .navbar-items .navbar-link a:hover{
+    color:blanchedalmond;
+    text-decoration: underline;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* hero */
+.parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   color: white;
+    font-weight: bold;
+     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); 
+}
+.btn {
+    border-radius: 12px;
+    height: 60px;      
+    width: 250px;       
+    font-size: 24px;    
+    font-weight: bold;
+    color: white;
+   background-color: #28a745;;
+    cursor: pointer;   
+    text-decoration: none;
+    padding: 12px;
+}
+.btn:hover {
+    background-color: #218838; 
+    
+}
+
+
+/* menu card */
+.menu{
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+}
+.menu .menu-heading{
+    text-align: center;
+    font-size: 30px;
+    color:  rgb(250, 208, 153);
+    text-transform: uppercase;
+}
+.menu .menu-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.menu .menu-row .menu-col img{
+   
+    border-radius:50%;
+}
+.menu .menu-row .menu-col p{
+    color:white;
+    font-style: italic;
+    margin-right: 500px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.men{
+     margin-top: 150px;
+     margin-right: 150px;
+     margin-left: 150px;
+}
+.men-row{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.men-col p{
+    color: white;
+    font-style: italic;
+    margin-left: 400px;
+    font-weight: 900;
+    font-size: x-large;
+}
+.men1-col{
+     border-radius:50%;
+}
+
+/* reserve */
+.rese1 {
+  width: 50%;
+  margin: 0 auto;
+  background: rgba(0, 255, 255, 0.382);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.rese1 div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.rese1 label {
+  flex: 1;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.rese1 input {
+  flex: 2;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+
+/* contact */
+.contact{
+    margin-top: 250px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.contact .contact-heading{
+    text-align: center;
+    font-size: 30px;
+    color: orangered;
+    text-transform: uppercase;
+}
+.contact-col{
+     color: rgb(222, 218, 218);
+     font-size: 20px;
+}
+.contact-detail{
+    color:rgb(255, 251, 251);
+    text-decoration: none;
+}
+.con1{
+   text-decoration: none;
+ text-align: center;
+    background-color: rgba(151, 151, 158, 0.537);
+
+}
+.con1 a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 200;
+    color: white;
+}
+.con1 h2{
+    color: black;
+}
+.con1 h1{
+    color:  rgb(250, 208, 153);
+}
